@@ -1,0 +1,42 @@
+module.exports = {
+    coinbase_client_id: "58054d15376a178e2129198e65f2713f9049e8f9c7c4dff472abec66c3825ced",
+    coinbase_client_secret: "74d196b351acc5900f293a64676f7b9be8e6fa8033686625a8ffe2b125d59305",
+    coinbase_state: "coinbase_state_daedalus",
+    coinbase_scope: ["wallet:accounts:read", "wallet:user:read", "wallet:user:email"],
+
+    alpaca_client_id: "c44e66c3f86085894899596d1e049e14",
+    alpaca_client_secret: "6f5302c6cfb0863a41a4d02b90f4ab08fd415f8e",
+    alpaca_state: "alpaca_state_daedalus",
+    alpaca_scope: "account:write trading",
+
+    // binance_client_id: "KlhyPQ4mrn51v2obn6Szb19fcfPct2wIwoG26dLDHSZJWRCMc9c2TSJgyFucmdqj",
+    // binance_client_secret: "qZdoqRruNd5hZiBRt5ngb2cihxSO9vaGaObjW6MXmGOI2LmKncVwMOg5MRZwJxva",
+    // binance_state: "377f36a4557ab5935b3611",
+    // binance_scope: "user:email,user:address",
+    iexapis_base_url: "https://cloud.iexapis.com",
+    iexapis_base_key: "pk_fde490c1a26e43798c9463412f26ada3",
+    robinhood_client_id: "",
+    robinhood_client_secret: "",
+    robinhood_state: "",
+    robinhood_scope: "account:write trading",
+
+    coinmarketap_base_url: "https://sandbox-api.coinmarketcap.com",
+    coinmarketap_key: "b54bcf4d-1bca-4e8e-9a24-22ff2c3d462c",
+    static_dir: "D:/Work/checkout-single-subscription/client",
+    //=====test=======
+    stripe_secret_key: "sk_test_51KHZbuENaAzJyBIek43tYwjcTYdvn0okX9NualdiplV6P6QaJwayN1MIJIEQzta199qHTVkqGBnj7Bh5Vvqj0owD00ya4qkJV3",
+    stripe_publishable_key: "pk_test_51KHZbuENaAzJyBIeaUwIHqy8FuoPbaARZRvAp23QoutMD7IWNRneTS9v5ZA2brtpJiJ5HflSTNA35DRrUTBi4uiH00bvkV5qpO",
+    pricing_free: "price_1KfowUENaAzJyBIebVLqF1rZ",
+    pricing_silver: "price_1KfowLENaAzJyBIelLXsE3Wz",
+    pricing_gold: "price_1Kfow9ENaAzJyBIeaYo50FIw",
+    stripe_webhook_secret: "whsec_kCLeZhCPHZTnmFOl9weHUvacyunpBhqZ",
+    //=====live=======
+    // stripe_secret_key: "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",
+    // stripe_publishable_key: "pk_live_51KHZbuENaAzJyBIeYFCPncwyg007YH44qwUiIBnu6OnqGQnbbvttNRayMJkd4LrHk6Bw0y0out6oy3u7PDj2IGHC00dphVA2vD",
+    // pricing_gold: "price_1KgX03ENaAzJyBIeVFBhQ6nP",
+    // pricing_silver: "price_1KgWzuENaAzJyBIeXrXpi8bj",
+    // pricing_free: "price_1KgWzgENaAzJyBIeLQTjigWx",
+    // stripe_webhook_secret: "whsec_ATOaHzQpSfA20F07tTz4kvt9teRaTQr9",
+    domain: "https://daedalustech.io",
+    sendgrid_api_key: "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",
+}

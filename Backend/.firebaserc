@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "default": "daedalus-ecc1f",
+    "staging": "daedalus-ecc1f"
+  },
+  "targets": {}
+}

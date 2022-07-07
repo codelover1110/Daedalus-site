@@ -1,0 +1,7 @@
+@if ( $font--provider == 'Google Fonts' ) {
+    @import url('https://fonts.googleapis.com/css?family=#{$font--import}&display=swap');
+}
+@font-face {
+  font-family: 'CircularStd';
+  src: local('CircularStd'), url('./circularstd.otf') format('truetype');
+}

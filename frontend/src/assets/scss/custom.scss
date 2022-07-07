@@ -1,0 +1,56 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/*====================== Utiltities ============================= */
+@layer utilities {
+    .placeholder-sm {
+        &::placeholder {
+            font-size: 0.8rem;
+        }
+    }
+}
+
+/*====================== Header ============================= */
+
+.header-nav {
+    .header-nav__menu {
+        display: none;
+        ul.header-nav__menu__custom {
+            display: block;
+        }
+        &.is-active {
+            display: block;
+        }
+    }
+}
+
+/*====================== Dashboard ============================= */
+.Dashboard {
+    font-family: "Fira sans", sans-serif;
+}
+.dashboard__topbar {
+    .topbar__search {
+        .topbar__search__input {
+            &:focus {
+                outline: 0;
+                box-shadow: none !important;
+            }
+        }
+    }
+}
+
+.dashboard__sidebar {
+    .dashboard__sidebar__header {
+        text-align: -webkit-center;
+        .dashboard__sidebar__header__circle {
+            width: 50px;
+            height: 50px;
+        }
+    }
+    .dashboard__sidebar__menu {
+        li {
+            text-align: -webkit-center;
+        }
+    }
+}

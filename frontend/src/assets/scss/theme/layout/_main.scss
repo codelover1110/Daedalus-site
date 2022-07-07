@@ -1,0 +1,27 @@
+.modal-backdrop {
+  z-index: 9;
+}
+.modal-content {
+  padding: 10px !important;
+}
+
+.modal-header, .modal-footer {
+  padding: 0px !important;
+}
+
+.modal-body {
+  padding: 10px 5px !important;
+}
+
+.modal-title.h4{
+  margin: 5px !important;
+  color: #000000;
+}
+
+small {
+  font-size: 80% !important;
+}
+
+.form-group {
+  flex-direction: column;
+}
